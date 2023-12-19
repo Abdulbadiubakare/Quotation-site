@@ -1,0 +1,91 @@
+.tablediv{
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+
+.table{
+    border: thin;
+    border-style: solid;
+    width: 70%;
+    
+}
+.th{
+    border: thin;
+    border-style: solid;
+    width: 14vw;
+}
+.td{
+    border: thin;
+    text-align: center;
+    border-style: solid;
+}
+.cal{
+    border: thin;
+    text-align: center;
+    border-style: solid;
+    background-color: rgb(226, 226, 226);
+    cursor: pointer;
+
+}
+.select{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.qt{
+    text-align: center;
+    border: none;
+    outline: none;
+    inline-size: none;
+    
+}
+.button{
+    background-color: green;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    float: left;
+    border: none;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+.button2{
+    background-color: rgb(128, 0, 0);
+    color: rgb(226, 222, 222);
+    width: 10vw;
+    float: right;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+
+.button3{
+    background-color: rgb(62, 144, 212);
+    color: rgb(226, 222, 222);
+    width: 10vw;
+    float: right;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+
+.button4{
+    background-color: rgb(62, 212, 179);
+    color: rgb(226, 222, 222);
+    width: 10vw;
+    float: right;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1vw;
+    font-size: 1vw; 
+}
+
+

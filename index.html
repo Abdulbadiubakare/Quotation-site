@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+
+
+
+<div class="tablediv" >
+    <h1 style="font-size: 4vw; margin-bottom: 2px;">SALT AND LIGHT ELECTRICAL COMPANY</h1>
+    <div style="font-size: 2vw;">Address: No2 J5 Ahmedu bello road kawo kaduna</div>
+    <div style="font-size: 1.5vw; margin-bottom: 10px;">Email: <a>saltandlight.email.com</a></div>
+
+    <table class="table" id="table">
+        <tr>
+            <th class="th">S/N</th>
+            <th class="th">Quantity</th>
+            <th class="th">Material</th>
+            <th class="th">Unit Price</th>
+            <th class="th">Total Price</th>
+            <th class="cal">cal</th>
+        </tr>
+
+        <tr id="details1" >
+            <td class="td" id="s/n">1</td>
+            <td class="td">
+                    <input type="number" placeholder="Quantity" class="qt" id="quantity1">
+            </td>
+            <td class="td" id="material">
+                <select class="select">
+                    <option>select item..</option>
+                    <option>20mm pvc pipe</option>
+                    <option>25mm pvc pipe</option>
+                    <option>3*3 knockout box</option>
+                    <option>3*6 knockout box</option>
+                    <option>Circular box</option>
+                    <option>D6 single phase Db</option>
+                    <option>D6 3phase Db</option>
+                    <option>ELCB Box</option>
+                    <option>Cooker unit</option>
+                    <option>Coupling</option>
+                    <option>gum</option>
+                    <option>male/female bush</option>
+                </select>
+            </td>
+            <td class="td" >
+                <input type="number" placeholder="₦ Unit Price" class="qt" id="unitprice1">
+            </td>
+            <td class="td" id="totalprice1"> 0</td>
+            <td class="cal" onclick="cal1()">cal</td>
+        </tr>
+
+        <tr id="details2">
+            <td class="td" id="s/n">2</td>
+            <td class="td">
+                    <input type="number" placeholder="Quantity" class="qt" id="quantity2">
+            </td>
+            <td class="td" id="material">
+                <select class="select">
+                    <option>select item..</option>
+                    <option>20mm pvc pipe</option>
+                    <option>25mm pvc pipe</option>
+                    <option>3*3 knockout box</option>
+                    <option>3*6 knockout box</option>
+                    <option>Circular box</option>
+                    <option>D6 single phase Db</option>
+                    <option>D6 3phase Db</option>
+                    <option>ELCB Box</option>
+                    <option>Cooker unit</option>
+                    <option>Coupling</option>
+                    <option>gum</option>
+                    <option>male/female bush</option>
+                </select>
+            </td>
+            <td class="td" >
+                <input type="number" placeholder="₦ Unit Price" class="qt" id="unitprice2">
+            </td>
+            <td class="td" id="totalprice2"> 0</td>
+            <td class="cal" onclick="cal2()">cal</td>
+        </tr>
+
+
+        <tr id="details3">
+            <td class="td" id="s/n">3</td>
+            <td class="td">
+                    <input type="number" placeholder="Quantity" class="qt" id="quantity3">
+            </td>
+            <td class="td" id="material">
+                <select class="select">
+                    <option>select item..</option>
+                    <option>20mm pvc pipe</option>
+                    <option>25mm pvc pipe</option>
+                    <option>3*3 knockout box</option>
+                    <option>3*6 knockout box</option>
+                    <option>Circular box</option>
+                    <option>D6 single phase Db</option>
+                    <option>D6 3phase Db</option>
+                    <option>ELCB Box</option>
+                    <option>Cooker unit</option>
+                    <option>Coupling</option>
+                    <option>gum</option>
+                    <option>male/female bush</option>
+                </select>
+            </td>
+            <td class="td" >
+                <input type="number" placeholder="₦ Unit Price" class="qt" id="unitprice3">
+            </td>
+            <td class="td" id="totalprice3"> 0</td>
+            <td class="cal" onclick="cal3()">cal</td>
+        </tr>
+
+        
+        <tr id="details4">
+            <td class="td" id="s/n">4</td>
+            <td class="td">
+                    <input type="number" placeholder="Quantity" class="qt" id="quantity4">
+            </td>
+            <td class="td" id="material">
+                <select class="select">
+                    <option>select item..</option>
+                    <option>20mm pvc pipe</option>
+                    <option>25mm pvc pipe</option>
+                    <option>3*3 knockout box</option>
+                    <option>3*6 knockout box</option>
+                    <option>Circular box</option>
+                    <option>D6 single phase Db</option>
+                    <option>D6 3phase Db</option>
+                    <option>ELCB Box</option>
+                    <option>Cooker unit</option>
+                    <option>Coupling</option>
+                    <option>gum</option>
+                    <option>male/female bush</option>
+                </select>
+            </td>
+            <td class="td" >
+                <input type="number" placeholder="₦ Unit Price" class="qt" id="unitprice4">
+            </td>
+            <td class="td" id="totalprice4"> 0</td>
+            <td class="cal" onclick="cal4()">cal</td>
+        </tr>
+
+        
+        <tr id="details5">
+            <td class="td" id="s/n">5</td>
+            <td class="td">
+                    <input type="number" placeholder="Quantity" class="qt" id="quantity5">
+            </td>
+            <td class="td" id="material">
+                <select class="select">
+                    <option>select item..</option>
+                    <option>20mm pvc pipe</option>
+                    <option>25mm pvc pipe</option>
+                    <option>3*3 knockout box</option>
+                    <option>3*6 knockout box</option>
+                    <option>Circular box</option>
+                    <option>D6 single phase Db</option>
+                    <option>D6 3phase Db</option>
+                    <option>ELCB Box</option>
+                    <option>Cooker unit</option>
+                    <option>Coupling</option>
+                    <option>gum</option>
+                    <option>male/female bush</option>
+                </select>
+            </td>
+            <td class="td" >
+                <input type="number" placeholder="₦ Unit Price" class="qt" id="unitprice5">
+            </td>
+            <td class="td" id="totalprice5"> 0</td>
+            <td class="cal"  onclick="cal5()">cal</td>
+        </tr>
+
+        
+        <tr id="details6">
+            <td class="td" id="s/n">6</td>
+            <td class="td">
+                    <input type="number" placeholder="Quantity" class="qt" id="quantity6">
+            </td>
+            <td class="td" id="material">
+                <select class="select">
+                    <option>select item..</option>
+                    <option>20mm pvc pipe</option>
+                    <option>25mm pvc pipe</option>
+                    <option>3*3 knockout box</option>
+                    <option>3*6 knockout box</option>
+                    <option>Circular box</option>
+                    <option>D6 single phase Db</option>
+                    <option>D6 3phase Db</option>
+                    <option>ELCB Box</option>
+                    <option>Cooker unit</option>
+                    <option>Coupling</option>
+                    <option>gum</option>
+                    <option>male/female bush</option>
+                </select>
+            </td>
+            <td class="td" >
+                <input type="number" placeholder="₦ Unit Price" class="qt" id="unitprice6">
+            </td>
+            <td class="td" id="totalprice6"> 0</td>
+            <td class="cal" onclick="cal6()">cal</td>
+        </tr>
+
+        
+        <tr id="details7">
+            <td class="td" id="s/n">7</td>
+            <td class="td">
+                    <input type="number" placeholder="Quantity" class="qt" id="quantity7">
+            </td>
+            <td class="td" id="material">
+                <select class="select">
+                    <option>select item..</option>
+                    <option>20mm pvc pipe</option>
+                    <option>25mm pvc pipe</option>
+                    <option>3*3 knockout box</option>
+                    <option>3*6 knockout box</option>
+                    <option>Circular box</option>
+                    <option>D6 single phase Db</option>
+                    <option>D6 3phase Db</option>
+                    <option>ELCB Box</option>
+                    <option>Cooker unit</option>
+                    <option>Coupling</option>
+                    <option>gum</option>
+                    <option>male/female bush</option>
+                </select>
+            </td>
+            <td class="td" >
+                <input type="number" placeholder="₦ Unit Price" class="qt" id="unitprice7">
+            </td>
+            <td class="td" id="totalprice7"> 0</td>
+            <td class="cal" onclick="cal7()">cal</td>
+        </tr>
+
+        
+        <tr id="details8">
+            <td class="td" id="s/n">8</td>
+            <td class="td">
+                    <input type="number" placeholder="Quantity" class="qt" id="quantity8">
+            </td>
+            <td class="td" id="material">
+                <select class="select">
+                    <option>select item..</option>
+                    <option>20mm pvc pipe</option>
+                    <option>25mm pvc pipe</option>
+                    <option>3*3 knockout box</option>
+                    <option>3*6 knockout box</option>
+                    <option>Circular box</option>
+                    <option>D6 single phase Db</option>
+                    <option>D6 3phase Db</option>
+                    <option>ELCB Box</option>
+                    <option>Cooker unit</option>
+                    <option>Coupling</option>
+                    <option>gum</option>
+                    <option>male/female bush</option>
+                </select>
+            </td>
+            <td class="td" >
+                <input type="number" placeholder="₦ Unit Price" class="qt" id="unitprice8">
+            </td>
+            <td class="td" id="totalprice8"> 0</td>
+            <td class="cal" onclick="cal8()">cal</td>
+        </tr>
+
+        
+        <tr id="details9">
+            <td class="td" id="s/n">9</td>
+            <td class="td">
+                    <input type="number" placeholder="Quantity" class="qt" id="quantity9">
+            </td>
+            <td class="td" id="material">
+                <select class="select">
+                    <option>select item..</option>
+                    <option>20mm pvc pipe</option>
+                    <option>25mm pvc pipe</option>
+                    <option>3*3 knockout box</option>
+                    <option>3*6 knockout box</option>
+                    <option>Circular box</option>
+                    <option>D6 single phase Db</option>
+                    <option>D6 3phase Db</option>
+                    <option>ELCB Box</option>
+                    <option>Cooker unit</option>
+                    <option>Coupling</option>
+                    <option>gum</option>
+                    <option>male/female bush</option>
+                </select>
+            </td>
+            <td class="td" >
+                <input type="number" placeholder="₦ Unit Price" class="qt" id="unitprice9">
+            </td>
+            <td class="td" id="totalprice9"> 0</td>
+            <td class="cal" onclick="cal9()">cal</td>
+        </tr>
+
+        
+        <tr id="details">
+            <td class="td" id="s/n">10</td>
+            <td class="td">
+                    <input type="number" placeholder="Quantity" class="qt" id="quantity">
+            </td>
+            <td class="td" id="material">
+                <select class="select">
+                    <option>select item..</option>
+                    <option>20mm pvc pipe</option>
+                    <option>25mm pvc pipe</option>
+                    <option>3*3 knockout box</option>
+                    <option>3*6 knockout box</option>
+                    <option>Circular box</option>
+                    <option>D6 single phase Db</option>
+                    <option>D6 3phase Db</option>
+                    <option>ELCB Box</option>
+                    <option>Cooker unit</option>
+                    <option>Coupling</option>
+                    <option>gum</option>
+                    <option>male/female bush</option>
+                </select>
+            </td>
+            <td class="td" >
+                <input type="number" placeholder="₦ Unit Price" class="qt" id="unitprice">
+            </td>
+            <td class="td" id="totalprice">0</td>
+            <td class="cal" onclick="cal()">cal</td>
+        </tr>    
+        
+
+    </table>
+        <p style="float: right;">
+            <button onclick="add()" class="button">Add Row</button>
+            <button onclick="del()" class="button2"> Delete</button >
+            <button onclick="calculate()" class="button3">Calculate</button >
+        </p>
+
+    <div style="float: right; margin-top: 5px;">
+        <p><b>LABOUR: ₦<input type="number" class="qt" placeholder ="Enter Amount" id="labour"></b>
+        <b> TOTAL: ₦ <b id="total"></b></p>
+        <p><b>GRANT TOTAL: ₦ </b><b id="grandtotal"></b></p>
+    </div>
+</div>
+
+<button onclick="window.print()" class="button4">Print</button>
+
+
+
+</body>
+</html>
